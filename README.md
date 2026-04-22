@@ -1,8 +1,11 @@
 # Excel-data-analysis
+
 Analyze real life data from the New York Stock exchange:
 
 (1) data analysis and visualization.
+
 (2) creating a dynamic Profit and Loss Statement dashboard.
+
 (3) building a financial forecasting model with different scenarios.
 
 
