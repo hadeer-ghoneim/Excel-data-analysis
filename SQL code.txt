@@ -1,0 +1,35 @@
+Query 1
+
+SELECT Artist.Name, COUNT(Track.TrackId) AS number_of_tracks
+FROM Artist
+JOIN Album ON Artist.ArtistId = Album.ArtistId
+JOIN Track ON Album.AlbumId = Track.AlbumId
+GROUP BY Artist.Name
+ORDER BY number_of_tracks DESC
+LIMIT 10;
+
+Query 2
+
+SELECT CONCAT(Customer.FirstName, ' ', Customer.LastName) AS FullName, COUNT(InvoiceLine.TrackId) AS Total_Tracks_Purchased
+FROM Customer
+JOIN Invoice ON Customer.CustomerId = Invoice.CustomerId
+JOIN InvoiceLine ON Invoice.InvoiceId = InvoiceLine.InvoiceId
+GROUP BY FullName
+ORDER BY Total_Tracks_Purchased DESC;
+
+
+Query 3
+
+SELECT MediaType.Name AS Media_Type_Name, AVG(Track.UnitPrice) AS Average_Price
+FROM Track
+JOIN MediaType ON Track.MediaTypeId = MediaType.MediaTypeId
+GROUP BY MediaType.Name
+ORDER BY Average_Price DESC
+
+Query 4
+
+SELECT Genre.Name AS Genre_Name, SUM(InvoiceLine.Quantity) AS Total_Tracks_Sold
+FROM Genre
+JOIN Track ON Genre.GenreId = Track.GenreId
+JOIN InvoiceLine ON Track.TrackId = InvoiceLine.TrackId
+GROUP BY Genre.Name;
