@@ -1,43 +1,5 @@
 # 📁 Data Analysis Portfolio
-
-**3 real-world projects** completed during my data analysis training.
-
 ---
-
-## 📊 Projects
-
-### 1. NYSE Sector Analysis (Excel)
-- Analyzed **Cost of Goods Sold** for 100+ companies in IT vs Industrials sectors
-- Used **descriptive statistics** (mean, median, range, standard deviation)
-- Built **histograms** to visualize right-skewed distributions
-- **Insight**: Industrials sell more goods; IT has higher variability
-
-### 2. SQL Music Store Analysis (SQL)
-- Wrote **4 complex queries** using JOINs, aggregations, and grouping
-- Analyzed: top artists, customer behavior, pricing by media type, genre sales
-- **Insight**: Rock & Latin are best-selling genres; top customers bought ~38 tracks
-
-### 3. US Airlines & Airports (Data Cleaning & Mapping)
-- Cleaned and explored **14 airlines** and **200+ airports** with coordinates
-- Ready for **geographic analysis** and route planning
-
----
-
-## 🛠 Technical Skills
-`Excel` `SQL` `Data Cleaning` `Descriptive Statistics` `Data Visualization`
-
----
-
-## 📁 Files Included
-- `projectdata-nyse (1) (1).xlsx` + presentation
-- `SQL code.txt` + report
-- `airlines.csv` + `airports.csv`
-
----
-
-👩‍💻 **Author**: [Hadeer Mahmoud Ghoneim]
-
-*Check out the files inside each project folder for detailed work.*
 
 # 📊 Excel Data Analysis – NYSE Financial Project
 
